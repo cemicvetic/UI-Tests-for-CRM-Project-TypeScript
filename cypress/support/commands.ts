@@ -11,7 +11,12 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('auth', (token: string, userId: string) => {
+    cy.visit('/v5');
+    window.localStorage.setItem('token', token);
+    window.localStorage.setItem('userId', userId);
+});
+
 //
 //
 // -- This is a child command --
