@@ -1,7 +1,8 @@
-import ClientPage from "../pages/client.page";
-import { TestClient } from '../fixtures/clients'
+import Client from "../pages/Client";
 import ModalWindow from "../component/modal-window";
 import Dashboard from "../component/dashboard";
+import Clients from '../fixtures/clients'
+
 
 interface Client {
     name: string;
