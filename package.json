@@ -1,0 +1,20 @@
+{
+  "name": "local-tests",
+  "version": "1.0.0",
+  "description": "UI automated tests for CRM Project ClientBase v5",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:run:ci": "npx cypress run --record"
+  },
+  "author": "Svetlana Komarova",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1",
+    "faker": "^6.6.6"
+  }
+}
