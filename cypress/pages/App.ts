@@ -1,4 +1,4 @@
-import BasePage from "../base.page";
+import BasePage from "./Base-Pages";
 import Navbar from "../../component/navbar";
 import Logo from "../../component/logo";
 import Dropdown from "../../component/dropdown";

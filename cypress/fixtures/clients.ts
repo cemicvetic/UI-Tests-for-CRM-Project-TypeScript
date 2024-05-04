@@ -1,15 +1,9 @@
 
-const generateClient = (): Client => {
-    return {
-        companyName: faker.company.companyName(),
-        phone: faker.phone.phoneNumber('###-###-####'),
-        email: faker.internet.email(),
-        description: faker.lorem.sentence()
-    };
-};
+interface Client {
+    companyName: string;
+    phone: string;
+    email: string;
+    description: string;
+}
 
-const clients = {
-    testClientValid: generateClient()
-};
 
-export default clients;

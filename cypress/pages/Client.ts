@@ -1,6 +1,6 @@
-import AppPage from "./pages";
+import App from "./App";
 
-class ClientPage extends AppPage {
+class ClientPage extends App {
 
     get buttonCreateClient() { return cy.get('[type="button"][class="ant-btn ant-btn-primary"]') }
 

@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-xpath'
+// @ts-ignore
 cy.faker = require('faker')
 
 // Alternatively you can use CommonJS syntax:

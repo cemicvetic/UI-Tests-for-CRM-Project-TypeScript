@@ -11,11 +11,13 @@
 //
 //
 // -- This is a parent command --
-Cypress.Commands.add(`auth`, (token: string, userId: string) => {
-    cy.visit('/v5');
-    window.localStorage.setItem('token', token);
-    window.localStorage.setItem('userId', userId);
-});
+// @ts-ignore
+Cypress.Commands.add('auth', (token, userId) => {
+    cy.visit('/v5')
+    // @ts-ignore
+    window.localStorage.setItem('token', token)
+    window.localStorage.setItem('userId', userId)
+})
 
 //
 //
