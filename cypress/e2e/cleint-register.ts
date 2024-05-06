@@ -15,7 +15,7 @@ interface ClientData {
 
 describe('Client creation', () => {
 
-    // Before each test, perform these actions
+   
     beforeEach(() => {
         cy.visit(Cypress.env('TOKEN'), Cypress.env('USER_ID'));
         ClientPage.open();
@@ -24,7 +24,6 @@ describe('Client creation', () => {
 
 
     describe('SMOKE', () => {
-        // Prepare client data using fixture data
         let testClientValid = {
             companyName: undefined,
             phone: undefined,
