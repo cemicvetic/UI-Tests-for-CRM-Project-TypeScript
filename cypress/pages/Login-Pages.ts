@@ -10,7 +10,7 @@ class LoginPage extends BasePage {
     get emailValidationSign() { return cy.get('.ant-form-item-control-has-error').contains('Email') }
     get passwordValidationSign() { return cy.get('.ant-form-item-control-has-error').contains('Password') }
 
-    get mainSign() { return cy.contains('h1') } // Example: Adjust according to actual text
+    get mainSign() { return cy.contains('h1') }
 
     get prescriptionAccount() { return cy.contains('p', "Don’t have an account?") }
     get prescriptionAccountLink() { return cy.contains('a', "Create one") }
