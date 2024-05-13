@@ -1,1 +1,1 @@
-#﻿ UI-Tests-for-CRM-Project-TypeScript 👩🏼‍💻
+# UI-Tests-for-CRM-Project-TypeScript 👩🏼‍💻
