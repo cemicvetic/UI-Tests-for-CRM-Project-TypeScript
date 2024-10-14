@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@types/node": "^20.12.8",
-    "cypress-xpath": "^2.0.1",
+    "cypress-xpath": " ^2.0.1",
     "faker": "^6.6.6"
   }
 }
