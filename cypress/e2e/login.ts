@@ -41,7 +41,7 @@ describe('Login page', () => {
 
         describe('Log in with invalid credentials', () => {
 
-            it('The toast with text \'Auth failed\' appears', () => {
+            it("The toast with text 'Auth failed' appears", () => {
                 LoginPage.login(Cypress.env('EMAIL'), '123456')
 
                 LoginPage.toast.should('be.visible').should('have.text', 'Auth failed')
